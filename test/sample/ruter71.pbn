@@ -1,0 +1,658 @@
+% PBN 2.0
+% EXPORT
+% 
+% <META  name=Generator                  content="Ruter i Norge">
+% <META  name=Version                    content="4.4">
+% <META  name=Author                     content="www.brenning.se">
+% 
+% <META  name=Licencee                   content="1156 Rekrutteringsklubben Ruter 7">
+% <META  name=Arranger                   content="1156 Rekrutteringsklubben Ruter 7">
+% <META  name=Signature                  content="1156 Rekrutteringsklubben Ruter 7">
+% <META  name=Created                    content="2012-01-24 22:34:06">
+% 
+% <META  name=ContestDate                content="2012-01-24">
+% <META  name=ContestName                content="Klubbkveld">
+% <META  name=ContestType                content="2">
+% <META  name=ScoringType                content="IMP;Butler-2;Mean">
+% <META  name=TournamentDirector         content=";;;;;;;;;;;;;;;;;;">
+% 
+% <META  name=TableCount                 content="8">
+% <META  name=PairCount                  content="16">
+% <META  name=PhantomCount               content="0">
+% <META  name=BoardCount                 content="21">
+% <META  name=RoundCount                 content="7">
+% <META  name=Average                    content="">
+% <META  name=HandicapPercentageAverage  content="">
+% 
+% <META  name=CRCategoryID               content="1">
+% <META  name=Factor                     content="1">
+% <META  name=FactorReason               content="">
+% <META  name=ContestID                  content="">
+% <META  name=SerialNumber               content="34">
+% <META  name=PlayerCategoryCount        content="">
+% 
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:Q53.AKQ.96.K8754 KT98.JT7.KQ43.A6 A64.843.T752.J93 J72.9652.AJ8.QT2"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[TotalScoreTable "Rank\2R;RankTie\2R;PairId\2R;Table\1R;Direction\5R;TotalScoreIMP\3R;Names\50L;NrBoards\2R;Club\49L;MemberID1\7R;MemberID2\7R;Sex1\3R;Sex2\3R"]
+ 1  -  3 2 "N-S"  50 "Magne Tønnessen - Dagfinn Iversen"                21 "Rekrutteringsklubben Ruter 7 - Kristiansands BK" "11925" "39066" "M" "M"
+ 2  - 16 8 "E-W"  46 "Rudi Dahl - Marit Dahl"                           21 "Rekrutteringsklubben Ruter 7"                    "24682" "34692" "M" "M"
+ 3  -  7 4 "N-S"  34 "Clas Gundersen - Glenn Mathisen"                  21 "Rekrutteringsklubben Ruter 7"                    "31875" "38593" "M" "M"
+ 4  5  6 3 "N-S"  29 "Nina Skoland Kaspersen - Thomas Haukland"         21 "Rekrutteringsklubben Ruter 7"                    "35471" "31044" "M" "M"
+ 4  5 10 5 "E-W"  29 "Jan Erik Eriksen - Rita Løvsland"                 21 "Rekrutteringsklubben Ruter 7"                    "37971" "37970" "M" "W"
+ 6  - 13 7 "E-W"  16 "Kenneth Gjernes - Martin Eiesland"                21 "Rekrutteringsklubben Ruter 7"                    "35472" "38850" "M" "M"
+ 7  -  4 2 "E-W"   9 "Henning Klemo - Heidi Langeland"                  21 "Rekrutteringsklubben Ruter 7"                    "27542" "40115" "M" "M"
+ 8  -  2 1 "E-W"   7 "Eirik Breen - Monica Strandmyr"                   21 "Rekrutteringsklubben Ruter 7 - Kristiansands BK" "40121" "30096" "M" "W"
+ 9  - 11 6 "E-W"   6 "Inger Berge - Finn Thomassen"                     21 "Søgne BK"                                        "37346" "37347" "M" "M"
+10  -  1 1 "N-S"  -1 "Øyvind Lindberg - Samson Sundfjord"               21 "Rekrutteringsklubben Ruter 7 - Kristiansands BK" "37650" "38763" "M" "M"
+11  - 14 7 "N-S" -12 "Roald Hodne Larsen - Arvid Thorbjørnsen"          21 "Rekrutteringsklubben Ruter 7"                    "10520" "40063" "M" "M"
+12  -  9 5 "N-S" -19 "Trygve Bryn - John Skogheim"                      21 "Søm BK - Rekrutteringsklubben Ruter 7"           "29429"  "8983" "M" "M"
+13  - 15 8 "N-S" -37 "Gerd Andersen - Wenche Haraldsen Myhre"           21 "Rekrutteringsklubben Ruter 7"                    "35476" "38193" "M" "M"
+14 15  5 3 "E-W" -47 "Bjørg Jernæs - Årstein Jernæs"                    21 "Rekrutteringsklubben Ruter 7"                    "40119" "40118" "W" "M"
+14 15  8 4 "E-W" -47 "Hanne Cecilie Jensen - Paul Otto Johnsen"         21 "Rekrutteringsklubben Ruter 7 - Søgne BK"         "35575" "38762" "M" "M"
+16  - 12 6 "N-S" -63 "Mette Høgdal Johannessen - Dag Flemming Pedersen" 21 "Rekrutteringsklubben Ruter 7"                    "40116" "35067" "M" "M"
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+2 1  3  4 1N  N  8 ST   "120"      -   5  -5  -90
+3 1  6  5 2S  W  7 HJ    "50"      -   4  -4  -90
+4 1  7  8 1H  W  7 HA       -   "80"   0   0  -90
+6 1 12 11 1S  E  7 C9       -   "80"   0   0  -90
+7 1 14 13 1H  W  8 D9       -  "110"  -1   1  -90
+5 1  9 10 2H  W  9 HA       -  "140"  -2   2  -90
+1 1  1  2 1N  E  9 CJ       -  "150"  -2   2  -90
+8 1 15 16 1N  E  9 CJ       -  "150"  -2   2  -90
+
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:AQ98.QJ98.Q3.Q63 T65.AT7.AK74.JT2 J73.K5432.JT.K85 K42.6.98652.A974"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+8 1 15 16 3H  W  8 D6    "50"      -   5  -5 -130
+4 1  7  8 4D  S  9 H2       -  "100"   1  -1 -130
+1 1  1  2 2H  W  9 D9       -  "140"   0   0 -130
+2 1  3  4 2H  E  9 ST       -  "140"   0   0 -130
+3 1  6  5 2H  E  9 DA       -  "140"   0   0 -130
+5 1  9 10 2H  W  9 S2       -  "140"   0   0 -130
+6 1 12 11 2H  E  9 DA       -  "140"   0   0 -130
+7 1 14 13 3H  E  9 D2       -  "140"   0   0 -130
+
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:K2.KT983.J97.KQ5 Q874.AQ765.A5.92 65.J2.K832.AJ874 AJT93.4.QT64.T63"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+3 1  6  5 3N  E  7 HJ   "200"      -   6  -6  -30
+4 1  7  8 1N  N  7 H4    "90"      -   3  -3  -30
+8 1 15 16 1N  N  7 SA    "90"      -   3  -3  -30
+2 1  3  4 1N  N  6 SJ       -   "50"  -1   1  -30
+5 1  9 10 1N  N  6 SJ       -   "50"  -1   1  -30
+6 1 12 11 1N  N  5 S3       -  "100"  -2   2  -30
+1 1  1  2 2S  E  9 H3       -  "140"  -3   3  -30
+7 1 14 13 3S  E  9 H3       -  "140"  -3   3  -30
+
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:AQ9843.7654.7.Q4 J52.AKT3.AK42.86 KT.Q82.Q6.A97532 76.J9.JT9853.KJT"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+5 2  7 12 3N  N 11 CA   "660"      -  11 -11  140
+6 2 14  9 4C  E  8 D8   "200"      -   2  -2  140
+1 2  1  4 1N  N  9 C2   "150"      -   0   0  140
+3 2  8  3 3D  S 10 C8   "130"      -   0   0  140
+8 2 13 15 4D  S 10 SA   "130"      -   0   0  140
+7 2 16 11 4D  N 10 SK   "130"      -   0   0  140
+2 2  2  6 3D  S  9 H7   "110"      -  -1   1  140
+4 2  5 10 3S  W  9 HA       -  "140"  -7   7  140
+
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K872.6.AQJ6.JT42 Q965.Q95.K9753.A AJT.T84.T4.K8653 43.AKJ732.82.Q97"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+8 2 13 15 3C  S  9 HA   "110"      -   5  -5 -100
+5 2  7 12 4H  W  9 C2    "50"      -   4  -4 -100
+2 2  2  6 2H  W  8 S8       -  "110"   0   0 -100
+1 2  1  4 2H  W  9 CJ       -  "140"  -1   1 -100
+4 2  5 10 3H  W  9 D6       -  "140"  -1   1 -100
+3 2  8  3 3H  W  9 S2       -  "140"  -1   1 -100
+7 2 16 11 3H  W  9 S2       -  "140"  -1   1 -100
+6 2 14  9 2HX W  8 CJ       -  "470"  -9   9 -100
+
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:JT3.KT73.Q73.AKQ 965.J2.T52.86543 AK4.Q985.A98.972 Q872.A64.KJ64.JT"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+1 2  1  4 4H  E  9 C6   "100"      -  12 -12 -500
+2 2  2  6 4H  W  9 C6   "100"      -  12 -12 -500
+5 2  7 12 3N  E  9 HJ       -  "600"  -3   3 -500
+8 2 13 15 3N  E  9 S9       -  "600"  -3   3 -500
+4 2  5 10 4H  E 10 D2       -  "620"  -3   3 -500
+6 2 14  9 4H  E 10 DT       -  "620"  -3   3 -500
+3 2  8  3 3N  E 10 -        -  "630"  -4   4 -500
+7 2 16 11 3N  E 10 C6       -  "630"  -4   4 -500
+
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "7"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:Q84.K95.Q9754.J2 AT953.AQ432.T8.4 KJ7.J86.KJ6.Q753 62.T7.A32.AKT986"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+6 3 16  7 3N  E  6 D7   "300"      -   9  -9  -70
+2 3  4  8 2N  E  6 H5   "200"      -   7  -7  -70
+3 3 10  2 3N  E  7 D4   "200"      -   7  -7  -70
+8 3 11 13 3S  W  8 D2   "100"      -   5  -5  -70
+5 3  5 14 3C  E 10 D7       -  "130"  -2   2  -70
+4 3  3 12 2H  W 10 H6       -  "170"  -3   3  -70
+1 3  1  6 3N  W  9 D4       -  "600" -11  11  -70
+7 3 15  9 4S  W 10 C5       -  "620" -11  11  -70
+
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "8"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:Q4.J542.A9765.K7 T95.T983.KJ.AJT8 J862.AQ.432.9532 AK73.K76.QT8.Q64"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+2 3  4  8 1N  N  9 S8   "150"      -   1  -1  130
+3 3 10  2 1N  N  9 D4   "150"      -   1  -1  130
+4 3  3 12 2H  N  9 D4   "140"      -   0   0  130
+6 3 16  7 2H  N  9 D4   "140"      -   0   0  130
+7 3 15  9 3C  S 10 D5   "130"      -   0   0  130
+1 3  1  6 1N  N  8 C5   "120"      -   0   0  130
+5 3  5 14 2S  S  8 D4   "110"      -  -1   1  130
+8 3 11 13 3H  N  8 D4       -   "50"  -5   5  130
+
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "9"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:9.AT743.QT74.AQ7 AK64.J5.AJ96.T53 JT52.K982.83.J98 Q873.Q6.K52.K642"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+6 3 16  7 4HX N 10 SA   "590"      -  10 -10  110
+7 3 15  9 3S  W  7 D4   "200"      -   3  -3  110
+1 3  1  6 3H  N 10 SA   "170"      -   2  -2  110
+4 3  3 12 1H  N 10 SA   "170"      -   2  -2  110
+2 3  4  8 3S  E  8 H2   "100"      -   0   0  110
+8 3 11 13 3S  E  8 H2   "100"      -   0   0  110
+5 3  5 14 1S  W  8 C7       -  "110"  -6   6  110
+3 3 10  2 2S  W  8 HA       -  "110"  -6   6  110
+
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "10"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:K94.74.J763.QT82 J5.KQT92.T9.J654 QT6.AJ8653.K52.K A8732..AQ84.A973"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+2 4  6 10 2HX W  7 C3   "200"      -   5  -5   10
+7 4 13  7 2S  N  9 H7   "140"      -   4  -4   10
+6 4 15  5 2N  S  8 H3   "120"      -   3  -3   10
+5 4  3 16 1S  N  7 H7    "80"      -   2  -2   10
+3 4 12  4 1N  E  7 SJ       -   "90"  -3   3   10
+1 4  1  8 2D  N  7 H4       -  "100"  -3   3   10
+4 4  2 14 2H  W  8 C9       -  "110"  -3   3   10
+8 4  9 11 2HX W  8 CA       -  "670" -12  12   10
+
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "11"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:AKT743.KT32.K2.K 65.A98.T643.T654 9.Q54.A985.AQ973 QJ82.J76.QJ7.J82"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+5 4  3 16 3N  N 11 S2   "460"      -   1  -1  440
+8 4  9 11 3N  N 11 SQ   "460"      -   1  -1  440
+1 4  1  8 4H  S 11 D6   "450"      -   0   0  440
+4 4  2 14 4H  S 11 S5   "450"      -   0   0  440
+2 4  6 10 3N  N 10 DQ   "430"      -   0   0  440
+3 4 12  4 4H  S 10 D6   "420"      -  -1   1  440
+7 4 13  7 3N  N  9 DQ   "400"      -  -1   1  440
+6 4 15  5 3N  N  8 DQ       -   "50" -10  10  440
+
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "12"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:J54.873.A97.Q832 AT82.AKT4.Q6.J76 K763.Q652.T4.KT4 Q9.J9.KJ8532.A95"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+1 4  1  8 3N  S 10 SJ   "630"      -   7  -7  330
+5 4  3 16 3N  N 10 S3   "630"      -   7  -7  330
+4 4  2 14 3N  S  9 C3   "600"      -   7  -7  330
+7 4 13  7 3SX E  6 HJ   "500"      -   5  -5  330
+8 4  9 11 2N  N 10 S3   "180"      -  -4   4  330
+2 4  6 10 2D  S 11 H8   "150"      -  -5   5  330
+6 4 15  5 3N  S  8 C8       -  "100" -10  10  330
+3 4 12  4 3N  N  6 C4       -  "300" -12  12  330
+
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "13"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:AJ9.QJ753.3.KQT8 K84.94.KQ96.AJ42 765.A.JT7542.965 QT32.KT862.A8.73"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+8 5  7  9 2C  N  7 H9       -  "100"   1  -1 -120
+2 5  8 12 1H  N  6 D6       -  "100"   1  -1 -120
+3 5 14  6 1H  N  6 S3       -  "100"   1  -1 -120
+1 5  1 10 2S  W  8 D3       -  "110"   0   0 -120
+4 5  4 16 2S  W  8 D3       -  "110"   0   0 -120
+5 5  2 15 2N  E  8 D2       -  "120"   0   0 -120
+7 5 11  5 1HX N  6 DK       -  "200"  -2   2 -120
+6 5 13  3 1H  N  5 DK       -  "200"  -2   2 -120
+
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "14"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:K4.KQJ43.83.QJ86 AT2.9.AQJ965.AT2 QJ75.T765.4.K543 9863.A82.KT72.97"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+1 5  1 10 4D  S 11 H7   "150"      -   2  -2  100
+5 5  2 15 4D  S 10 HT   "130"      -   1  -1  100
+2 5  8 12 4D  S 10 HT   "130"      -   1  -1  100
+7 5 11  5 3D  S 10 H5   "130"      -   1  -1  100
+6 5 13  3 4D  S 10 HT   "130"      -   1  -1  100
+4 5  4 16 3H  E  8 DA    "50"      -  -2   2  100
+3 5 14  6 3H  E  8 D5    "50"      -  -2   2  100
+8 5  7  9 4S  N  8 HK       -  "100"  -5   5  100
+
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "15"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:A63.KQJ2.QJ762.5 K84.865.K53.AT62 QJT2.T43.94.J843 975.A97.AT8.KQ97"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+8 5  7  9 3CX W  8 SQ   "100"      -   5  -5  -70
+2 5  8 12 1D  S  8 S4    "90"      -   4  -4  -70
+5 5  2 15 2C  W  7 D9    "50"      -   3  -3  -70
+4 5  4 16 2C  E  8 HK       -   "90"  -1   1  -70
+7 5 11  5 1N  W  7 D9       -   "90"  -1   1  -70
+3 5 14  6 1N  W  9 SQ       -  "150"  -2   2  -70
+1 5  1 10 2H  S  6 H5       -  "200"  -4   4  -70
+6 5 13  3 2H  S  6 CA       -  "200"  -4   4  -70
+
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "16"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:K54.Q62.K2.KQT72 A863.K43.Q85.983 Q92.AT985.JT94.6 JT7.J7.A763.AJ54"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+2 6 10 14 1S  N  7 DJ    "80"      -   6  -6 -140
+4 6  6 15 2S  N  6 C6       -  "100"   1  -1 -140
+1 6  1 12 1N  W  8 S6       -  "120"   1  -1 -140
+3 6 16  8 1N  W  8 S7       -  "120"   1  -1 -140
+5 6  4 13 2H  E  9 S7       -  "140"   0   0 -140
+7 6  9  3 1N  W 10 S3       -  "180"  -1   1 -140
+6 6 11  2 1N  W 10 S3       -  "180"  -1   1 -140
+8 6  5  7 4H  W 10 S2       -  "620" -10  10 -140
+
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "17"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:JT9853.Q4.6.A965 A6.K653.AKJ5.832 Q2.AJT872.T9872. K74.9.Q43.KQJT74"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+3 6 16  8 6HX E  6 SQ  "1400"      -  17 -17 -210
+4 6  6 15 5CX W 10 D6   "100"      -   7  -7 -210
+1 6  1 12 6C  W 11 H4    "50"      -   6  -6 -210
+2 6 10 14 3C  W 11 D6       -  "150"   2  -2 -210
+5 6  4 13 5C  W 11 SJ       -  "400"  -5   5 -210
+6 6 11  2 3N  E  9 H2       -  "400"  -5   5 -210
+7 6  9  3 3N  W 11 SJ       -  "460"  -6   6 -210
+8 6  5  7 3N  E 12 DT       -  "490"  -7   7 -210
+
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "18"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:752.J98532.94.A7 863.KQT6.Q87.Q98 AJ4..AKJT53.K543 KQT9.A74.62.JT62"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+3 6 16  8 4H  E  7 S8   "150"      -   7  -7 -150
+5 6  4 13 5D  W 10 SK    "50"      -   5  -5 -150
+1 6  1 12 1D  W 10 SK       -  "130"   1  -1 -150
+4 6  6 15 3D  W 10 CJ       -  "130"   1  -1 -150
+6 6 11  2 3D  W 10 CJ       -  "130"   1  -1 -150
+2 6 10 14 2D  W 11 SK       -  "150"   0   0 -150
+8 6  5  7 3N  W 10 SK       -  "430"  -7   7 -150
+7 6  9  3 1NX S  5 DA       -  "500"  -8   8 -150
+
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "19"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:KJ82.J76543.9.A6 A73.Q.Q42.KQJ752 Q965.8.AT753.983 T4.AKT92.KJ86.T4"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+8 7  3  5 3N  W  7 S6   "200"      -   7  -7 -110
+6 7  9  4 2S  S  9 CK   "140"      -   6  -6 -110
+5 7  6 11 3N  W  8 S5   "100"      -   5  -5 -110
+7 7  7  2 3S  S  8 CQ       -   "50"   2  -2 -110
+1 7  1 14 2D  E  9 S2       -  "110"   0   0 -110
+3 7 15 10 2C  W 10 H8       -  "130"  -1   1 -110
+4 7  8 13 5C  W 11 H5       -  "600" -10  10 -110
+2 7 12 16 4NX E 11 H7       - "1010" -14  14 -110
+
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "20"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:K42.JT952.AT6.KJ 9.Q4.K9842.T9842 QJ8653.A7.753.A6 AT7.K863.QJ.Q753"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+7 7  7  2 5S  E  9 DQ   "200"      -   9  -9 -190
+3 7 15 10 4S  E  9 DQ   "100"      -   7  -7 -190
+8 7  3  5 3S  E  9 DQ       -  "140"   2  -2 -190
+5 7  6 11 3S  E  9 DQ       -  "140"   2  -2 -190
+4 7  8 13 2S  E 10 DQ       -  "170"   1  -1 -190
+2 7 12 16 2S  E 10 DQ       -  "170"   1  -1 -190
+1 7  1 14 4S  E 10 C3       -  "620" -10  10 -190
+6 7  9  4 4S  E 10 DQ       -  "620" -10  10 -190
+
+[Event "Klubbkveld"]
+[Site "1156 Rekrutteringsklubben Ruter 7, Norge"]
+[Date "2012.01.24"]
+[Board "21"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:AKJT964.2.85.873 53.AJT5.T4.AQJT5 Q87.873.AKJ73.K9 2.KQ964.Q962.642"]
+[Scoring "IMP;Butler-2;Mean"]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[Competition "Pairs"]
+[EventDate "2012.01.24"]
+[Annotator "1156 Rekrutteringsklubben Ruter 7"]
+[Application "Ruter i Norge - Read more at www.brenning.se"]
+[ScoreTable "Table\1R;Round\1R;PairId_NS\2R;PairId_EW\2R;Contract\3L;Declarer\1R;Result\2R;Lead\3L;Score_NS\6R;Score_EW\6R;IMP_NS\3R;IMP_EW\3R;ButlerDatum\4R"]
+7 7  7  2 4SX N 11 HA   "990"      -   9  -9  600
+8 7  3  5 4S  N 13 DT   "710"      -   3  -3  600
+5 7  6 11 4S  N 12 S5   "680"      -   2  -2  600
+1 7  1 14 4S  N 11 S5   "650"      -   2  -2  600
+4 7  8 13 4S  N 11 DT   "650"      -   2  -2  600
+6 7  9  4 4S  N 10 S4   "620"      -   1  -1  600
+2 7 12 16 4HX W  8 SA   "300"      -  -7   7  600
+3 7 15 10 3S  N 11 DT   "200"      -  -9   9  600

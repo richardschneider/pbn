@@ -19,6 +19,9 @@
     "portable",
     "notation"
   ],
+  "bin" : {
+    "pbn" : "./bin/pbn.js"
+  },
   "dependencies": {
     "lstream": "0.0.4",
     "multipipe": "^0.3.1"

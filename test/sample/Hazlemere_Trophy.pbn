@@ -1,0 +1,871 @@
+% BridgeNZ txt2pbn V0.1
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "1"]
+[Dealer "N"]
+[Vulnerable "None "]
+[Deal "N:AJ7.KT73.2.K9872 .9862.KQJ7.AT643 KQ9.AJ5.AT9865.J T865432.Q4.43.Q5"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 9
+N H 9
+N D 10
+N C 9
+N NT 9
+E S 6
+E H 6
+E D 6
+E C 6
+E NT 6
+S S 8
+S H 9
+S D 9
+S C 9
+S NT 9
+W S 6
+W H 6
+W D 6
+W C 6
+W NT 6
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "2"]
+[Dealer "E"]
+[Vulnerable "N-S "]
+[Deal "E:AJ52.A73.854.KT2 Q3.T4.AK2.QJ9864 7.KJ985.QT976.A3 KT9864.Q62.J3.75"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 6
+N H 6
+N D 6
+N C 6
+N NT 6
+E S 7
+E H 10
+E D 11
+E C 6
+E NT 10
+S S 6
+S H 6
+S D 6
+S C 6
+S NT 6
+W S 7
+W H 10
+W D 11
+W C 6
+W NT 8
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "3"]
+[Dealer "S"]
+[Vulnerable "E-W "]
+[Deal "S:AJT962.976.A96.9 75.JT853.82.J764 Q843.Q42.Q.AQ853 K.AK.KJT7543.KT2"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 11
+N H 7
+N D 6
+N C 7
+N NT 9
+E S 6
+E H 6
+E D 9
+E C 6
+E NT 6
+S S 11
+S H 7
+S D 6
+S C 7
+S NT 8
+W S 6
+W H 6
+W D 9
+W C 6
+W NT 6
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "4"]
+[Dealer "W"]
+[Vulnerable "Both "]
+[Deal "W:J854.93.AK862.J6 K976.K.Q953.AT54 A32.AJT7.T.KQ972 QT.Q86542.J74.83"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 6
+N H 6
+N D 6
+N C 6
+N NT 6
+E S 8
+E H 8
+E D 7
+E C 9
+E NT 8
+S S 6
+S H 6
+S D 6
+S C 6
+S NT 6
+W S 8
+W H 8
+W D 7
+W C 9
+W NT 8
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "5"]
+[Dealer "N"]
+[Vulnerable "N-S "]
+[Deal "N:K53.KJ964.J87.42 642.82.A642.AQJT J87.A7.KQT93.863 AQT9.QT53.5.K975"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 6
+N H 7
+N D 8
+N C 6
+N NT 6
+E S 8
+E H 6
+E D 6
+E C 9
+E NT 6
+S S 6
+S H 7
+S D 8
+S C 6
+S NT 6
+W S 8
+W H 6
+W D 6
+W C 9
+W NT 6
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "6"]
+[Dealer "E"]
+[Vulnerable "E-W "]
+[Deal "E:T97.KJT8.754.AQ9 K43.762.QT82.J73 AJ65.AQ9.A6.T642 Q82.543.KJ93.K85"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 6
+N H 6
+N D 6
+N C 6
+N NT 6
+E S 10
+E H 10
+E D 8
+E C 10
+E NT 9
+S S 6
+S H 6
+S D 6
+S C 6
+S NT 6
+W S 10
+W H 10
+W D 8
+W C 10
+W NT 9
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "7"]
+[Dealer "S"]
+[Vulnerable "Both "]
+[Deal "S:Q6.A86.AT632.AK3 9732.KQT742.94.T JT54..KJ87.Q8765 AK8.J953.Q5.J942"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 7
+N H 6
+N D 11
+N C 10
+N NT 9
+E S 6
+E H 8
+E D 6
+E C 6
+E NT 6
+S S 7
+S H 6
+S D 11
+S C 10
+S NT 9
+W S 6
+W H 8
+W D 6
+W C 6
+W NT 6
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "8"]
+[Dealer "W"]
+[Vulnerable "None "]
+[Deal "W:543.KJ984.542.85 97.5.Q97.AKQ9643 Q62.QT73.AJ86.T2 AKJT8.A62.KT3.J7"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 12
+N H 8
+N D 10
+N C 12
+N NT 12
+E S 6
+E H 6
+E D 6
+E C 6
+E NT 6
+S S 12
+S H 8
+S D 10
+S C 12
+S NT 12
+W S 6
+W H 6
+W D 6
+W C 6
+W NT 6
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "9"]
+[Dealer "N"]
+[Vulnerable "E-W "]
+[Deal "N:T.AT9542.963.T52 A9862.Q.AQ7.KQJ9 Q4.87.KJ54.87643 KJ753.KJ63.T82.A"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 6
+N H 6
+N D 6
+N C 6
+N NT 6
+E S 12
+E H 8
+E D 9
+E C 10
+E NT 12
+S S 6
+S H 6
+S D 6
+S C 6
+S NT 6
+W S 12
+W H 8
+W D 9
+W C 8
+W NT 11
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "10"]
+[Dealer "E"]
+[Vulnerable "Both "]
+[Deal "E:AKQ.Q965.J82.A83 T84.J87.QT5.QJ96 532.K2.A97.K7542 J976.AT43.K643.T"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 6
+N H 6
+N D 6
+N C 6
+N NT 6
+E S 7
+E H 7
+E D 7
+E C 8
+E NT 7
+S S 6
+S H 6
+S D 6
+S C 6
+S NT 6
+W S 7
+W H 7
+W D 7
+W C 8
+W NT 7
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "11"]
+[Dealer "S"]
+[Vulnerable "None "]
+[Deal "S:753.QT9854.A876. K6.AK.KJ542.KQT5 QJT9.J732.9.AJ72 A842.6.QT3.98643"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 6
+N H 9
+N D 6
+N C 6
+N NT 6
+E S 7
+E H 6
+E D 9
+E C 9
+E NT 8
+S S 6
+S H 9
+S D 6
+S C 6
+S NT 6
+W S 6
+W H 6
+W D 9
+W C 9
+W NT 8
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "12"]
+[Dealer "W"]
+[Vulnerable "N-S "]
+[Deal "W:KQ76.KJ2.T74.AQ2 T2.QT843.K32.J73 94.A.AQJ986.KT65 AJ853.9765.5.984"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 6
+N H 6
+N D 6
+N C 6
+N NT 6
+E S 10
+E H 8
+E D 12
+E C 12
+E NT 12
+S S 6
+S H 6
+S D 6
+S C 6
+S NT 6
+W S 10
+W H 8
+W D 12
+W C 12
+W NT 12
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "13"]
+[Dealer "N"]
+[Vulnerable "Both "]
+[Deal "N:AQ53.82.973.AJ72 KT9864.Q64.QT2.4 J.K975.8654.KT95 72.AJT3.AKJ.Q863"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 6
+N H 6
+N D 6
+N C 7
+N NT 6
+E S 9
+E H 8
+E D 7
+E C 6
+E NT 7
+S S 6
+S H 6
+S D 6
+S C 7
+S NT 6
+W S 9
+W H 8
+W D 7
+W C 6
+W NT 7
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "14"]
+[Dealer "E"]
+[Vulnerable "None "]
+[Deal "E:A93.A42.T65.QJ92 J52.KJ986.K4.AT8 KT87.T753.A9.K73 Q64.Q.QJ8732.654"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 6
+N H 6
+N D 6
+N C 6
+N NT 6
+E S 8
+E H 8
+E D 6
+E C 8
+E NT 8
+S S 6
+S H 6
+S D 6
+S C 6
+S NT 6
+W S 8
+W H 8
+W D 6
+W C 8
+W NT 8
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "15"]
+[Dealer "S"]
+[Vulnerable "N-S "]
+[Deal "S:AK.KJ76.T95.AKJT 2.8532.A876.Q986 Q9653.T94.QJ3.42 JT874.AQ.K42.753"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 8
+N H 8
+N D 7
+N C 8
+N NT 8
+E S 6
+E H 6
+E D 6
+E C 6
+E NT 6
+S S 8
+S H 8
+S D 7
+S C 8
+S NT 8
+W S 6
+W H 6
+W D 6
+W C 6
+W NT 6
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "16"]
+[Dealer "W"]
+[Vulnerable "E-W "]
+[Deal "W:J7653.6.AT732.KT KQT94.KQT..J5432 A8.J84.QJ8654.Q8 2.A97532.K9.A976"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 6
+N H 10
+N D 6
+N C 11
+N NT 6
+E S 6
+E H 6
+E D 10
+E C 6
+E NT 6
+S S 6
+S H 11
+S D 6
+S C 11
+S NT 6
+W S 6
+W H 6
+W D 10
+W C 6
+W NT 6
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "17"]
+[Dealer "N"]
+[Vulnerable "None "]
+[Deal "N:J5.AJT5.QJ5.J762 98632.83.T7643.K AT7.KQ42.82.Q543 KQ4.976.AK9.AT98"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 6
+N H 6
+N D 6
+N C 7
+N NT 6
+E S 9
+E H 6
+E D 9
+E C 6
+E NT 6
+S S 6
+S H 6
+S D 6
+S C 7
+S NT 6
+W S 9
+W H 6
+W D 9
+W C 6
+W NT 6
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "18"]
+[Dealer "E"]
+[Vulnerable "N-S "]
+[Deal "E:K85.KJ53.K98.KJ3 T9.AQT.QJ6.AQ986 AJ7643.2.54.T742 Q2.98764.AT732.5"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 6
+N H 9
+N D 10
+N C 7
+N NT 6
+E S 8
+E H 6
+E D 6
+E C 6
+E NT 7
+S S 6
+S H 9
+S D 10
+S C 7
+S NT 6
+W S 8
+W H 6
+W D 6
+W C 6
+W NT 7
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "19"]
+[Dealer "S"]
+[Vulnerable "E-W "]
+[Deal "S:9752.K2.J95.AQJ7 AQJT3.J.K86.K862 4.QT863.AQ732.T3 K86.A9754.T4.954"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 6
+N H 8
+N D 9
+N C 6
+N NT 6
+E S 8
+E H 6
+E D 6
+E C 7
+E NT 7
+S S 6
+S H 8
+S D 9
+S C 6
+S NT 6
+W S 8
+W H 6
+W D 6
+W C 7
+W NT 7
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "20"]
+[Dealer "W"]
+[Vulnerable "Both "]
+[Deal "W:T8.KJ65.AT532.K9 A972.AT72.74.JT3 J63.943.986.8765 KQ54.Q8.KQJ.AQ42"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 10
+N H 9
+N D 8
+N C 10
+N NT 10
+E S 6
+E H 6
+E D 6
+E C 6
+E NT 6
+S S 11
+S H 9
+S D 8
+S C 10
+S NT 10
+W S 6
+W H 6
+W D 6
+W C 6
+W NT 6
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "21"]
+[Dealer "N"]
+[Vulnerable "N-S "]
+[Deal "N:.AJ5.Q97.AJ98543 Q843.3.852.KQT72 AKJ75.T9864.AT6. T962.KQ72.KJ43.6"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 8
+N H 10
+N D 8
+N C 9
+N NT 9
+E S 6
+E H 6
+E D 6
+E C 6
+E NT 6
+S S 8
+S H 10
+S D 8
+S C 8
+S NT 9
+W S 6
+W H 6
+W D 6
+W C 6
+W NT 6
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "22"]
+[Dealer "E"]
+[Vulnerable "E-W "]
+[Deal "E:.KQ854.AQ6532.32 AT943.J763.J.974 8752.A2.K987.AKQ KQJ6.T9.T4.JT865"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 7
+N H 6
+N D 6
+N C 6
+N NT 6
+E S 6
+E H 12
+E D 13
+E C 8
+E NT 8
+S S 7
+S H 6
+S D 6
+S C 6
+S NT 6
+W S 6
+W H 12
+W D 13
+W C 8
+W NT 8
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "23"]
+[Dealer "S"]
+[Vulnerable "Both "]
+[Deal "S:AJT8753.Q9..KQ73 K9.85.J753.JT862 4.764.AQT982.954 Q62.AKJT32.K64.A"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 7
+N H 6
+N D 6
+N C 7
+N NT 6
+E S 6
+E H 8
+E D 7
+E C 6
+E NT 9
+S S 7
+S H 6
+S D 6
+S C 7
+S NT 6
+W S 6
+W H 8
+W D 7
+W C 6
+W NT 9
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "24"]
+[Dealer "W"]
+[Vulnerable "None "]
+[Deal "W:JT2.JT63.K.J7653 743.A98.7652.K82 AQ986.7.JT843.Q9 K5.KQ542.AQ9.AT4"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 6
+N H 9
+N D 8
+N C 9
+N NT 9
+E S 7
+E H 6
+E D 6
+E C 6
+E NT 6
+S S 6
+S H 9
+S D 8
+S C 9
+S NT 9
+W S 7
+W H 6
+W D 6
+W C 6
+W NT 6
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "25"]
+[Dealer "N"]
+[Vulnerable "E-W "]
+[Deal "N:AT2.T7.AT74.AQT4 65.J643.J932.752 98.AKQ95.KQ65.J8 KQJ743.82.8.K963"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 9
+N H 13
+N D 13
+N C 11
+N NT 13
+E S 6
+E H 6
+E D 6
+E C 6
+E NT 6
+S S 9
+S H 13
+S D 13
+S C 11
+S NT 13
+W S 6
+W H 6
+W D 6
+W C 6
+W NT 6
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "26"]
+[Dealer "E"]
+[Vulnerable "Both "]
+[Deal "E:74.K8632.4.KT542 KT85.Q75.A32.AJ8 AQ93.T9.Q9876.76 J62.AJ4.KJT5.Q93"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 9
+N H 8
+N D 8
+N C 8
+N NT 10
+E S 6
+E H 6
+E D 6
+E C 6
+E NT 6
+S S 9
+S H 8
+S D 9
+S C 8
+S NT 10
+W S 6
+W H 6
+W D 6
+W C 6
+W NT 6
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "27"]
+[Dealer "S"]
+[Vulnerable "None "]
+[Deal "S:QT94.A93.Q2.KQ72 A87.742.AJ6.J954 652.KJT6.74.AT83 KJ3.Q85.KT9853.6"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 7
+N H 8
+N D 6
+N C 9
+N NT 6
+E S 6
+E H 6
+E D 8
+E C 6
+E NT 6
+S S 7
+S H 8
+S D 6
+S C 9
+S NT 6
+W S 6
+W H 6
+W D 8
+W C 6
+W NT 6
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "28"]
+[Dealer "W"]
+[Vulnerable "N-S "]
+[Deal "W:6532.KJ964.K7.QT K987.Q72.QJ85.97 AQT.AT8.AT642.53 J4.53.93.AKJ8642"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 6
+N H 6
+N D 6
+N C 6
+N NT 6
+E S 10
+E H 10
+E D 9
+E C 6
+E NT 6
+S S 6
+S H 6
+S D 6
+S C 6
+S NT 6
+W S 10
+W H 10
+W D 9
+W C 6
+W NT 6
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "29"]
+[Dealer "N"]
+[Vulnerable "Both "]
+[Deal "N:QJT9864.JT4.9.62 52.K96.Q432.AKQ3 A3.87532.A87.J98 K7.AQ.KJT65.T754"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 7
+N H 6
+N D 6
+N C 6
+N NT 6
+E S 6
+E H 7
+E D 11
+E C 9
+E NT 11
+S S 7
+S H 6
+S D 6
+S C 6
+S NT 6
+W S 6
+W H 7
+W D 11
+W C 9
+W NT 11
+ 
+[Event "Hazlemere_Trophy"]
+[Site "503"]
+[Date "20151006"]
+[Board "30"]
+[Dealer "E"]
+[Vulnerable "None "]
+[Deal "E:743.AK72.AKQJ6.9 QT6.QT3.T87.AT76 KJ82.J6.32.KQJ42 A95.9854.954.853"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N S 6
+N H 6
+N D 6
+N C 6
+N NT 6
+E S 10
+E H 9
+E D 10
+E C 10
+E NT 9
+S S 6
+S H 6
+S D 6
+S C 6
+S NT 6
+W S 10
+W H 9
+W D 10
+W C 10
+W NT 9
+ 
