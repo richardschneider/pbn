@@ -1,0 +1,47 @@
+{
+  "name": "pbn-parse",
+  "description": "Parse a PBN stream",
+  "homepage": "https://github.com/richardschneider/pbn-parse",
+  "bugs": "https://github.com/richardschneider/pbn-parse/issues",
+  "license": "MIT",
+  "main": "index.js",
+  "author": {
+    "name": "Richard Schneider",
+    "email": "makaretu@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richardschneider/pbn-parse"
+  },
+  "keywords": [
+    "bridge",
+    "pbn",
+    "portable",
+    "notation"
+  ],
+  "dependencies": {
+    "lstream": "0.0.4",
+    "multipipe": "^0.3.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-coveralls": "^0.1.4",
+    "gulp-jshint": "^2.0.1",
+    "gulp-spawn-mocha": "^2.2.2",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "mocha": "*",
+    "semantic-release": "^4.3.5",
+    "should": "*",
+    "validate-commit-msg": "^2.6.1"
+  },
+  "config": {
+    "ghooks": {
+      "commit-msg": "validate-commit-msg"
+    }
+  },
+  "scripts": {
+    "test": "gulp test",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  }
+}
