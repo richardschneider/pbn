@@ -14,7 +14,7 @@ describe('PBN', () => {
         return s;
     }
 
-    it('should have tag with name and value propertied', (done) => {
+    it('should have tag with name and value property', (done) => {
         let tag = {};
         text('[Dealer "N"]')
             .pipe(pbn())
@@ -100,6 +100,24 @@ describe('PBN', () => {
             .on('end', () => {
                 directive.should.have.property('type', 'directive');
                 directive.should.have.property('text', 'PBN 2.1');
+                done();
+            });
+    });
+
+    it('should have section data with tag', (done) => {
+        let tag = {};
+        text('[Foo "bar"]\ndata 1\ndata 2')
+            .pipe(pbn())
+            .on('error', done)
+            .on('data', data => { tag = data; })
+            .on('end', () => {
+                tag.should.have.property('type', 'tag');
+                tag.should.have.property('name', 'Foo');
+                tag.should.have.property('value', 'bar');
+                tag.should.have.property('section');
+                tag.section.should.have.length(2);
+                tag.section[0].should.equal('data 1');
+                tag.section[1].should.equal('data 2');
                 done();
             });
     });
