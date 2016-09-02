@@ -52,9 +52,22 @@ describe('PBN', () => {
             });
     });
 
-    it('should have single line comment with text property', (done) => {
+    it('should have single line comment (semi-colon) with text property', (done) => {
         let comment = {};
         text('; hello world')
+            .pipe(pbn())
+            .on('error', done)
+            .on('data', data => { comment = data; })
+            .on('end', () => {
+                comment.should.have.property('type', 'comment');
+                comment.should.have.property('text', 'hello world');
+                done();
+            });
+    });
+
+    it('should have single line comment (braces) with text property', (done) => {
+        let comment = {};
+        text('{ hello world }')
             .pipe(pbn())
             .on('error', done)
             .on('data', data => { comment = data; })
