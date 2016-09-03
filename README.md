@@ -36,7 +36,27 @@ Process a PBN file
             process.stderr.write(err.message);
             process.exit(1);
         });
-        
+
+Process a PBN string
+
+    const Readable = require('stream').Readable;
+
+    function text(doc) {
+        var s = new Readable();
+        s.push(doc);    // the string you want
+        s.push(null);   // indicates end-of-file basically - the end of the stream
+        return s;
+    }
+
+    text(' ... ')
+        .pipe(pbn())
+        .on('data', data => {
+            console.log(JSON.stringify(data));
+        })
+        .on('error', err => {
+            process.stderr.write(err.message);
+            process.exit(1);
+        });
 
 # Command line
 
