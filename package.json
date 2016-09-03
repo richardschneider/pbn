@@ -21,8 +21,8 @@
     "parse",
     "transform"
   ],
-  "bin" : {
-    "pbn" : "./bin/pbn.js"
+  "bin": {
+    "pbn": "./bin/pbn.js"
   },
   "dependencies": {
     "lstream": "0.0.4",
