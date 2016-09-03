@@ -1,0 +1,46 @@
+[Event "International Amsterdam Airport Schiphol Bridgetournament"]
+[Site "Amsterdam, The Netherlands NLD"]
+[Date "1995.06.10"]
+[Board "1"]
+[West "Podgor"]
+[North "Westra"]
+[East "Kalish"]
+[South "Leufkens"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:.63.AKQ987.A9732 A8654.KQ5.T.QJT6 J973.J98742.3.K4 KQT2.AT.J6542.85"]
+[Scoring "IMP"]
+[Declarer "S"]
+[Contract "5HX"]
+[Result "9"]
+{
+                S
+                H 6 3
+                D A K Q 9 8 7
+                C A 9 7 3 2
+S K Q 10 2                      S A 8 6 5 4
+H A 10                          H K Q 5
+D J 6 5 4 2                     D 10
+C 8 5                           C Q J 10 6
+                S J 9 7 3
+                H J 9 8 7 4 2
+                D 3
+                C K 4   
+}
+[Auction "N"]
+1D      1S   3H =1= 4S
+4NT =2= X    Pass   Pass
+5C      X    5H     X
+Pass    Pass Pass
+[Note "1:non-forcing 6-9 points, 6-card"]
+[Note "2:two colors: clubs and diamonds"]
+[Play "W"]
+SK =1= H3 S4 S3
+C5 C2 C6 CK
+S2 H6 S5 S7
+C8 CA CT C4
+D2 DA DT D3
+D4 DK H5 H7
+-  -  -  H2
+*
+[Note "1:highest of series"]
