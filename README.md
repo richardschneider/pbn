@@ -12,6 +12,8 @@
 * Tag - `[Event "somewhere"]`
 * Inherited tag value - `[Event "#"]` or `[Event "##somewhere"]`
 * Section data added to previous tag
+* Comment - `; ...` or `{ ... }`
+* Game - starts with first `Tag` or semi-empty line
 
 ## Getting started
 
