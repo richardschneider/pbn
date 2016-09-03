@@ -75,6 +75,20 @@ describe('PBN', () => {
                         done();
                     });
             });
+
+            it('should default to optional value', (done) => {
+                let tag = {};
+                text('[Event "##somewhere"]')
+                    .pipe(pbn())
+                    .on('error', done)
+                    .on('data', data => { tag = data; })
+                    .on('end', () => {
+                        tag.should.have.property('type', 'tag');
+                        tag.should.have.property('name', 'Event');
+                        tag.should.have.property('value', 'somewhere');
+                        done();
+                    });
+            });
         });
 
     });
