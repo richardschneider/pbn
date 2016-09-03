@@ -122,4 +122,18 @@ describe('PBN', () => {
             });
     });
 
+    it('should inherit tag values', (done) => {
+        let tag = {};
+        text('[Event "Some event"]\n\n[Event "#"]')
+            .pipe(pbn())
+            .on('error', done)
+            .on('data', data => { tag = data; })
+            .on('end', () => {
+                tag.should.have.property('type', 'tag');
+                tag.should.have.property('name', 'Event');
+                tag.should.have.property('value', 'Some event');
+                done();
+            });
+    });
+
 });
