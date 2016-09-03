@@ -1,10 +1,10 @@
-# pbn-stream
+# pbn
 
-[![Travis build status](https://travis-ci.org/richardschneider/pbn-stream.svg)](https://travis-ci.org/richardschneider/pbn-stream)
-[![Coverage Status](https://coveralls.io/repos/github/richardschneider/pbn-stream/badge.svg?branch=master)](https://coveralls.io/github/richardschneider/pbn-stream?branch=master) 
- [![npm version](https://badge.fury.io/js/pbn-stream.svg)](https://badge.fury.io/js/pbn-stream) 
+[![Travis build status](https://travis-ci.org/richardschneider/pbn.svg)](https://travis-ci.org/richardschneider/pbn)
+[![Coverage Status](https://coveralls.io/repos/github/richardschneider/pbn/badge.svg?branch=master)](https://coveralls.io/github/richardschneider/pbn?branch=master) 
+ [![npm version](https://badge.fury.io/js/pbn.svg)](https://badge.fury.io/js/pbn) 
  
-**pbn-stream** parses and transforms a [Portable Bridge Notation](http://www.tistis.nl/pbn/) stream into a series of javascript objects via the [node stream](https://nodejs.org/api/stream.html#stream_api_for_stream_consumers) design pattern.  Each PBN object contains a `type` and other properties that describes the PBN line(s).
+**pbn** parses and transforms a [Portable Bridge Notation](http://www.tistis.nl/pbn/) stream into a series of javascript objects via the [node stream](https://nodejs.org/api/stream.html#stream_api_for_stream_consumers) design pattern.  Each PBN object contains a `type` and other properties that describes the PBN line(s).
 
 ## Features
 
@@ -19,13 +19,13 @@
 
 Install the latest version with [npm](http://blog.npmjs.org/post/85484771375/how-to-install-npm)
 
-    > npm install pbn-stream
+    > npm install pbn
 
 ## Usage
 
 Include the package
 
-    const pbn = require('pbn-stream')
+    const pbn = require('pbn')
 
 Process a PBN file
 

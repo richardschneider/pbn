@@ -1,8 +1,8 @@
 {
-  "name": "pbn-parse",
-  "description": "Parse a PBN stream",
-  "homepage": "https://github.com/richardschneider/pbn-parse",
-  "bugs": "https://github.com/richardschneider/pbn-parse/issues",
+  "name": "pbn",
+  "description": "Parse and transform a PBN stream",
+  "homepage": "https://github.com/richardschneider/pbn",
+  "bugs": "https://github.com/richardschneider/pbn/issues",
   "license": "MIT",
   "main": "index.js",
   "author": {
@@ -11,13 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/richardschneider/pbn-parse"
+    "url": "https://github.com/richardschneider/pbn"
   },
   "keywords": [
     "bridge",
     "pbn",
     "portable",
-    "notation"
+    "notation",
+    "parse",
+    "transform"
   ],
   "bin" : {
     "pbn" : "./bin/pbn.js"
