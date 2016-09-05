@@ -6,6 +6,9 @@
  
 **pbn** parses and transforms a [Portable Bridge Notation](http://www.tistis.nl/pbn/) stream into a series of javascript objects via the [node stream](https://nodejs.org/api/stream.html#stream_api_for_stream_consumers) design pattern.  Each PBN object contains a `type` and other properties that describes the PBN line(s).
 
+The [change log](https://github.com/richardschneider/pbn/releases) is automatically produced with
+the help of [semantic-release](https://github.com/semantic-release/semantic-release).
+
 ## Features
 
 * Directive - `% PBN 2.1`
