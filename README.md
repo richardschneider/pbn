@@ -62,7 +62,7 @@ Process a PBN string
 
 ## Data event
 
-The data event, `.on('data', data => {...})`. is emitted when a PBN line(s) is parsed.  It contains the `type` and other properties.
+The data event, `.on('data', data => {...})`, is emitted when a PBN line(s) is parsed.  It contains the `type` and other properties.
 
 ### directive
 
@@ -122,7 +122,17 @@ Is emitted when the first `tag` or a semi-empty line is encountersed.
 
 ### tag
 
-**TODO**
+Is emitted when a line  starts with `[` and ends with `]`. For example
+
+    [Dealer "N"]
+
+produces
+
+    {
+        type: 'tag',
+        name: 'Dealer',
+        value: 'N'
+    }
 
 # Command line
 
