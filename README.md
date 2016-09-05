@@ -62,7 +62,7 @@ Process a PBN string
 
 ## Data event
 
-The data event, `.on('data', data => {...})`, is emitted when a PBN line(s) is parsed.  It contains the `type` and other properties.
+The data event, `.on('data', data => {...})`, is emitted when a PBN line(s) is completely parsed.  It contains the `type` and other properties.
 
 ### directive
 
@@ -134,6 +134,31 @@ produces
         value: 'N'
     }
 
+#### Deal
+
+The `deal` tag provides an easy parseable hand. For example
+
+    [Deal "N:JT6.AK95.J9.KJ72 - - A4.T863.AQ643.53"]
+
+produces
+
+    {
+        type: 'tag',
+        name: 'Deal',
+        value: 'N:JT6.AK95.J9.KJ72 - - A4.T863.AQ643.5'
+        cards: [
+          { seat: 'N', suit: 'S', rank: 'J'},
+          { seat: 'N', suit: 'S', rank: 'T'},
+          { seat: 'N', suit: 'S', rank: '6'},
+          { seat: 'N', suit: 'H', rank: 'A'},
+          ...
+          { seat: 'W', suit: 'S', rank: 'A'},
+          ...
+          { seat: 'W', suit; 'C', rank: '5'}
+        }
+    }
+   
+    
 # Command line
 
 A command line interface (`pbn`) is also available. It transforms a PBN file or `stdin` into JSON.

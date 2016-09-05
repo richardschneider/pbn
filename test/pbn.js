@@ -93,6 +93,26 @@ describe('PBN', () => {
 
     });
 
+    describe('tag Deal', () => {
+        it('should have cards', (done) => {
+            let deal = {};
+            text('[Deal "N:JT6.AK95.J9.KJ72 - ..8. A4.T863.AQ643.5"]')
+                .pipe(pbn())
+                .on('error', done)
+                .on('data', data => { deal = data; })
+                .on('end', () => {
+                    deal.should.have.property('type', 'tag');
+                    deal.should.have.property('name', 'Deal');
+                    deal.should.have.property('value', 'N:JT6.AK95.J9.KJ72 - ..8. A4.T863.AQ643.5');
+                    deal.should.have.property('cards');
+                    deal.cards.should.containEql({ seat: 'N', suit: 'S', rank: 'J'});
+                    deal.cards.should.containEql({ seat: 'S', suit: 'D', rank: '8'});
+                    deal.cards.should.containEql({ seat: 'W', suit: 'C', rank: '5'});
+                    done();
+                });
+        });
+    });
+
     describe('game', () => {
         it('should start on first tag', (done) => {
             let game = false;
