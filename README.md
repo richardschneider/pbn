@@ -60,6 +60,70 @@ Process a PBN string
             process.exit(1);
         });
 
+## Data event
+
+The data event, `.on('data', data => {...})`. is emitted when a PBN line(s) is parsed.  It contains the `type` and other properties.
+
+### directive
+
+Is emitted when a line begins with a percent(`%`).  For example
+
+    % PBN 2.1
+
+produces
+
+    {
+        type: 'directive', 
+        text: 'PBN 2.1'
+    }
+
+Note that whitespace is trimmed.
+
+### comment (single line)
+
+Is emitted when a line begins with a semi-colon(';'). For example
+
+    ; The quick brown fox ...
+
+produces
+
+    {
+        type: 'comment', 
+        text: 'The quick brown fox ...'
+    }
+
+Note that whitespace is trimmed.
+
+### comment (multi-line)
+
+Is emitted when a group of lines start with `{` and ends with `}`. For example
+
+    {
+      the quick browk fox
+      ...
+    }
+
+produces
+
+    {
+        type: 'comment', 
+        text: '  the quick browk fox\r\n  ...\r\n'
+    }
+
+Note that whitespace is **not** trimmed.
+
+### game
+
+Is emitted when the first `tag` or a semi-empty line is encountersed.
+
+    {
+        type: 'game'
+    }
+
+### tag
+
+**TODO**
+
 # Command line
 
 A command line interface (`pbn`) is also available. It transforms a PBN file or `stdin` into JSON.
