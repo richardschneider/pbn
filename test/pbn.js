@@ -29,7 +29,7 @@ describe('PBN', () => {
                 });
         });
 
-        it('should have section data as an arrray of strings', (done) => {
+        it('should have section data as an arrray of lines', (done) => {
             let tag = {};
             text('[Foo "bar"]\ndata 1\ndata 2')
                 .pipe(pbn())
@@ -43,6 +43,26 @@ describe('PBN', () => {
                     tag.section.should.have.length(2);
                     tag.section[0].should.equal('data 1');
                     tag.section[1].should.equal('data 2');
+                    done();
+                });
+        });
+
+        it('should have section data as an arrray of tokens', (done) => {
+            let tag = {};
+            text('[Foo "bar"]\ndata 1\ndata 2')
+                .pipe(pbn())
+                .on('error', done)
+                .on('data', data => { tag = data; })
+                .on('end', () => {
+                    tag.should.have.property('type', 'tag');
+                    tag.should.have.property('name', 'Foo');
+                    tag.should.have.property('value', 'bar');
+                    tag.should.have.property('tokens');
+                    tag.tokens.should.have.length(4);
+                    tag.tokens[0].should.equal('data');
+                    tag.tokens[1].should.equal('1');
+                    tag.tokens[2].should.equal('data');
+                    tag.tokens[3].should.equal('2');
                     done();
                 });
         });
