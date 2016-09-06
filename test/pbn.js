@@ -133,6 +133,24 @@ describe('PBN', () => {
         });
     });
 
+    describe('tag Note', () => {
+        it('should have a number and text', (done) => {
+            let note = {};
+            text('[Note "1:..."]')
+                .pipe(pbn())
+                .on('error', done)
+                .on('data', data => { note = data; })
+                .on('end', () => {
+                    note.should.have.property('type', 'tag');
+                    note.should.have.property('name', 'Note');
+                    note.should.have.property('value', '1:...');
+                    note.should.have.property('number', 1);
+                    note.should.have.property('text', '...');
+                    done();
+                });
+        });
+    });
+
     describe('game', () => {
         it('should start on first tag', (done) => {
             let game = false;

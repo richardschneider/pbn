@@ -139,7 +139,7 @@ produces
 
 #### Deal
 
-The `deal` tag provides an easy parseable hand. For example
+The `Deal` tag provides an easy parseable hand. For example
 
     [Deal "N:JT6.AK95.J9.KJ72 - - A4.T863.AQ643.53"]
 
@@ -160,8 +160,23 @@ produces
           { seat: 'W', suit; 'C', rank: '5'}
         }
     }
-   
-    
+
+#### Note
+
+The `Note` tag provides a `number` and `text` property. For example
+
+    [Note "1:non-forcing 6-9 points, 6-card"]
+
+produces
+
+    {
+        type: 'tag',
+        name: 'Note',
+        value: '1:non-forcing 6-9 points, 6-card',
+        number: 1,
+        text: 'non-forcing 6-9 points, 6-card'
+    }
+
 # Command line
 
 A command line interface (`pbn`) is also available. It transforms a PBN file or `stdin` into JSON.
