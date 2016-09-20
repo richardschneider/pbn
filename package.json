@@ -5,6 +5,18 @@
   "bugs": "https://github.com/richardschneider/pbn/issues",
   "license": "MIT",
   "main": "index.js",
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  },
   "author": {
     "name": "Richard Schneider",
     "email": "makaretu@gmail.com"
