@@ -157,7 +157,7 @@ produces
           ...
           { seat: 'W', suit: 'S', rank: 'A'},
           ...
-          { seat: 'W', suit; 'C', rank: '5'}
+          { seat: 'E', suit; 'C', rank: '5'}
         }
     }
 
