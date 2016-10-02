@@ -17,6 +17,8 @@ the help of [semantic-release](https://github.com/semantic-release/semantic-rele
 * Section data added to previous tag
 * Comment - `; ...` or `{ ... }`
 * Game - starts with first `Tag` or semi-empty line
+* Deal - easily parseable hands
+* Conversion of deal file formats (BRI) to pbn
 
 ## Getting started
 
@@ -176,6 +178,31 @@ produces
         number: 1,
         text: 'non-forcing 6-9 points, 6-card'
     }
+
+## Conversion
+
+Some deal formats can be converted into a pbn stream.  The `pbn.convertXXX()` function is used, where XXX is the
+name of the deal format.
+
+    fs.createReadStream('foo.bri')
+        .pipe(pbn.convertBRI(options))
+        .on('data', data => {
+            console.log(JSON.stringify(data));
+        });
+
+### BRI
+
+`pbn.convertBRI(options)`
+* options.boardNumber - the starting board number, defaults to 1.
+
+BRI format is a subset of DUP format. (DUP also includes DGE
+format for verification). Structure is 78 ASCII numbers per deal
+to designate the North, East and South hands in that order. Each hand uses 26 bytes.
+Each two numbers represents a card (01 = SA, 02 = SK ... 52 = C2).
+
+For some reason each BRI deal is padded to 128 bytes (with spaces and nulls!)
+
+http://www.duplimate.com/DuplimateClub/convert.pdf
 
 # Command line
 
