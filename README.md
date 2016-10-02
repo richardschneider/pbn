@@ -213,6 +213,13 @@ DGE format is a subset of DUP format; again padded to 128 bytes.
 
 http://www.duplimate.com/DuplimateClub/convert.pdf
 
+### DUP
+
+`pbn.convertDUP(options)`
+* options.boardNumber - the starting board number, defaults to 1.
+
+http://www.duplimate.com/DuplimateClub/convert.pdf
+
 # Command line
 
 A command line interface (`pbn`) is also available. It transforms a PBN file or `stdin` into JSON.
