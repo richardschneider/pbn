@@ -204,6 +204,15 @@ For some reason each BRI deal is padded to 128 bytes (with spaces and nulls!)
 
 http://www.duplimate.com/DuplimateClub/convert.pdf
 
+### DGE
+
+`pbn.convertDGE(options)`
+* options.boardNumber - the starting board number, defaults to 1.
+
+DGE format is a subset of DUP format; again padded to 128 bytes.
+
+http://www.duplimate.com/DuplimateClub/convert.pdf
+
 # Command line
 
 A command line interface (`pbn`) is also available. It transforms a PBN file or `stdin` into JSON.
