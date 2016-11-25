@@ -38,17 +38,18 @@
   },
   "dependencies": {
     "lstream": "0.0.4",
-    "multipipe": "^0.3.1"
+    "multipipe": "^1.0.2"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-coveralls": "^0.1.4",
     "gulp-jshint": "^2.0.1",
-    "gulp-spawn-mocha": "^2.2.2",
+    "gulp-spawn-mocha": "^3.1.0",
+    "istanbul": "^0.4.5",
     "jshint": "^2.9.2",
     "jshint-stylish": "^2.2.0",
     "mocha": "*",
-    "semantic-release": "^4.3.5",
+    "semantic-release": "^6.3.2",
     "should": "*",
     "validate-commit-msg": "^2.6.1"
   },
