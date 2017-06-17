@@ -29,6 +29,20 @@ describe('PBN', () => {
                 });
         });
 
+        it('should not require space between name and value', (done) => {
+            let tag = {};
+            text('[Dealer"N"]')
+                .pipe(pbn())
+                .on('error', done)
+                .on('data', data => { tag = data; })
+                .on('end', () => {
+                    tag.should.have.property('type', 'tag');
+                    tag.should.have.property('name', 'Dealer');
+                    tag.should.have.property('value', 'N');
+                    done();
+                });
+        });
+
         it('should have section data as an arrray of lines', (done) => {
             let tag = {};
             text('[Foo "bar"]\ndata 1\ndata 2')
