@@ -29,6 +29,16 @@ describe('PBN', () => {
                 });
         });
 
+        it('should error when value is missing', (done) => {
+            text('[Dealer]')
+                .pipe(pbn())
+                .on('error', function(err) {
+                    err.should.have.property('message', 'Invalid PBN for tagpair: [Dealer]');
+                    done();
+                })
+                .on('data', () => done(new Error('Did not emit error', null)));
+        });
+
         it('should not require space between name and value', (done) => {
             let tag = {};
             text('[Dealer"N"]')
