@@ -199,6 +199,19 @@ describe('PBN', () => {
                     done();
                 });
         });
+
+        it('should ignore empty lines at eof', (done) => {
+            let games = 0;
+            text('[Dealer "N"]\r\n \r\n[Dealer "E"]\r\n \t   \r\n[Dealer "S"]\r\n\r\n')
+                .pipe(pbn())
+                .on('error', done)
+                .on('data', data => { if (data.type === 'game') ++games; })
+                .on('end', () => {
+                    games.should.equal(3);
+                    done();
+                });
+        });
+
     });
 
     describe('comment', () => {
