@@ -237,6 +237,22 @@ describe('PBN', () => {
                     done();
                 });
         });
+        it('should not parse contract with ?', (done) => {
+            let contract = {};
+            text('[Contract "?"]')
+                .pipe(pbn())
+                .on('error', done)
+                .on('data', data => { contract = data; })
+                .on('end', () => {
+                    contract.should.have.property('type', 'tag');
+                    contract.should.have.property('name', 'Contract');
+                    contract.should.have.property('value', '?');
+                    contract.should.not.have.property('level');
+                    contract.should.not.have.property('denomination');
+                    contract.should.not.have.property('risk');
+                    done();
+                });
+        });
         it('should error when value is wrong', (done) => {
             text('[Contract "1P"]')
                 .pipe(pbn())
