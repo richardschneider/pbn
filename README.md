@@ -2,8 +2,8 @@
 
 [![Travis build status](https://travis-ci.org/richardschneider/pbn.svg)](https://travis-ci.org/richardschneider/pbn)
 [![Coverage Status](https://coveralls.io/repos/github/richardschneider/pbn/badge.svg?branch=master)](https://coveralls.io/github/richardschneider/pbn?branch=master)
- [![npm version](https://badge.fury.io/js/pbn.svg)](https://badge.fury.io/js/pbn) 
- 
+ [![npm version](https://badge.fury.io/js/pbn.svg)](https://badge.fury.io/js/pbn)
+
 **pbn** parses and transforms a [Portable Bridge Notation](http://www.tistis.nl/pbn/) stream into a series of javascript objects via the [node stream](https://nodejs.org/api/stream.html#stream_api_for_stream_consumers) design pattern.  Each PBN object contains a `type` and other properties that describes the PBN line(s).
 
 The [change log](https://github.com/richardschneider/pbn/releases) is automatically produced with
@@ -78,7 +78,7 @@ Is emitted when a line begins with a percent(`%`).  For example
 produces
 
     {
-        type: 'directive', 
+        type: 'directive',
         text: 'PBN 2.1'
     }
 
@@ -93,7 +93,7 @@ Is emitted when a line begins with a semi-colon(';'). For example
 produces
 
     {
-        type: 'comment', 
+        type: 'comment',
         text: 'The quick brown fox ...'
     }
 
@@ -111,7 +111,7 @@ Is emitted when a group of lines start with `{` and ends with `}`. For example
 produces
 
     {
-        type: 'comment', 
+        type: 'comment',
         text: '  the quick browk fox\r\n  ...\r\n'
     }
 
@@ -137,6 +137,33 @@ produces
         type: 'tag',
         name: 'Dealer',
         value: 'N'
+    }
+
+#### Contract
+
+The `Contract` tag provides an easy parseable contract. For example
+
+    [Contract "3NTX"]
+
+produces
+
+    {
+        type: 'tag',
+        name: 'Contract',
+        value: '3NTX',
+        level: 3,
+        denomination: 'NT',
+        risk: 'X'
+    }
+
+A passed in contract, `[Contract "Pass"]`, sets the level to zero.
+
+    {
+        type: 'tag',
+        name: 'Contract',
+        value: 'Pass',
+        level: 0,
+        risk: ''
     }
 
 #### Deal
@@ -227,7 +254,7 @@ A command line interface (`pbn`) is also available. It transforms a PBN file or 
 To transform a file, try something like:
 
     > pbn foo.pbn
-     
+
 To use with `*nix` pipes
 
     > cat foo.pbn | pbn

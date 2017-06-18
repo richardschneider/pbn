@@ -157,6 +157,81 @@ describe('PBN', () => {
         });
     });
 
+    describe('tag Contract', () => {
+        it('should have level, denomination and risk', (done) => {
+            let contract = {};
+            text('[Contract "3NT"]')
+                .pipe(pbn())
+                .on('error', done)
+                .on('data', data => { contract = data; })
+                .on('end', () => {
+                    contract.should.have.property('type', 'tag');
+                    contract.should.have.property('name', 'Contract');
+                    contract.should.have.property('value', '3NT');
+                    contract.should.have.property('level', 3);
+                    contract.should.have.property('denomination', 'NT');
+                    contract.should.have.property('risk', '');
+                    done();
+                });
+        });
+        it('can be doubled', (done) => {
+            let contract = {};
+            text('[Contract "3NTX"]')
+                .pipe(pbn())
+                .on('error', done)
+                .on('data', data => { contract = data; })
+                .on('end', () => {
+                    contract.should.have.property('type', 'tag');
+                    contract.should.have.property('name', 'Contract');
+                    contract.should.have.property('value', '3NTX');
+                    contract.should.have.property('level', 3);
+                    contract.should.have.property('denomination', 'NT');
+                    contract.should.have.property('risk', 'X');
+                    done();
+                });
+        });
+        it('can be redoubled', (done) => {
+            let contract = {};
+            text('[Contract "3HXX"]')
+                .pipe(pbn())
+                .on('error', done)
+                .on('data', data => { contract = data; })
+                .on('end', () => {
+                    contract.should.have.property('type', 'tag');
+                    contract.should.have.property('name', 'Contract');
+                    contract.should.have.property('value', '3HXX');
+                    contract.should.have.property('level', 3);
+                    contract.should.have.property('denomination', 'H');
+                    contract.should.have.property('risk', 'XX');
+                    done();
+                });
+        });
+        it('can be passed in', (done) => {
+            let contract = {};
+            text('[Contract "Pass"]')
+                .pipe(pbn())
+                .on('error', done)
+                .on('data', data => { contract = data; })
+                .on('end', () => {
+                    contract.should.have.property('type', 'tag');
+                    contract.should.have.property('name', 'Contract');
+                    contract.should.have.property('value', 'Pass');
+                    contract.should.have.property('level', 0);
+                    contract.should.have.property('risk', '');
+                    done();
+                });
+        });
+        it('should error when value is wrong', (done) => {
+            text('[Contract "1P"]')
+                .pipe(pbn())
+                .on('error', function(err) {
+                    err.should.have.property('message', 'Invalid contract: [Contract "1P"]');
+                    done();
+                })
+                .on('data', () => done(new Error('Did not emit error', null)));
+        });
+    });
+
     describe('tag Note', () => {
         it('should have a number and text', (done) => {
             let note = {};
