@@ -3,6 +3,7 @@
 require('should');
 
 let pbn = require('..'),
+    dge = require('../lib/dge-to-pbn'),
     fs = require('fs');
 
 describe('DGE to PBN', () => {
@@ -59,6 +60,13 @@ describe('DGE to PBN', () => {
                 deals[1].should.have.property('value', 'N:AKQ984.KQT7..Q83 7.J63.AJT82.A754 532.854.Q43.KT62 JT6.A92.K9765.J9');
                 done();
             });
+    });
+
+    it('should determine if the data is valid', function() {
+        dge.check(fs.readFileSync('./test/sample/big-deal.bri')).should.equal(false);
+        dge.check(fs.readFileSync('./test/sample/big-deal.pbn')).should.equal(false);
+        dge.check(fs.readFileSync('./test/sample/big-deal.dge')).should.equal(true);
+        dge.check(fs.readFileSync('./test/sample/big-deal.dup')).should.equal(false);
     });
 
 });

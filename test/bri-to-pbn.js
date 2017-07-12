@@ -4,6 +4,7 @@ require('should');
 
 let pbn = require('..'),
     fs = require('fs'),
+    bri = require('../lib/bri-to-pbn'),
     Readable = require('stream').Readable;
 
 function text(doc) {
@@ -95,6 +96,13 @@ describe('BRI to PBN', () => {
                 deals[1].should.have.property('value', 'N:AKQ984.KQT7..Q83 7.J63.AJT82.A754 532.854.Q43.KT62 JT6.A92.K9765.J9');
                 done();
             });
+    });
+
+    it('should determine if the data is valid', function() {
+        bri.check(fs.readFileSync('./test/sample/big-deal.bri')).should.equal(true);
+        bri.check(fs.readFileSync('./test/sample/big-deal.pbn')).should.equal(false);
+        bri.check(fs.readFileSync('./test/sample/big-deal.dge')).should.equal(false);
+        bri.check(fs.readFileSync('./test/sample/big-deal.dup')).should.equal(true);
     });
 
 });
