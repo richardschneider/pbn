@@ -3,6 +3,7 @@
 require('should');
 
 let pbn = require('..'),
+    fs = require('fs'),
     Readable = require('stream').Readable;
 
 describe('PBN', () => {
@@ -373,6 +374,13 @@ describe('PBN', () => {
                 directive.should.have.property('text', 'PBN 2.1');
                 done();
             });
+    });
+
+    it('should determine if the data is valid', function() {
+        pbn.check(fs.readFileSync('./test/sample/big-deal.bri')).should.equal(false);
+        pbn.check(fs.readFileSync('./test/sample/big-deal.pbn')).should.equal(true);
+        pbn.check(fs.readFileSync('./test/sample/big-deal.dge')).should.equal(false);
+        pbn.check(fs.readFileSync('./test/sample/big-deal.dup')).should.equal(false);
     });
 
 });

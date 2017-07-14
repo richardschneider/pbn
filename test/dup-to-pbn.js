@@ -3,6 +3,7 @@
 require('should');
 
 let pbn = require('..'),
+    dup = require('../lib/dup-to-pbn'),
     fs = require('fs');
 
 describe('DUP to PBN', () => {
@@ -60,5 +61,13 @@ describe('DUP to PBN', () => {
                 done();
             });
     });
+
+    it('should determine if the data is valid', function() {
+        dup.check(fs.readFileSync('./test/sample/big-deal.bri')).should.equal(false);
+        dup.check(fs.readFileSync('./test/sample/big-deal.pbn')).should.equal(false);
+        dup.check(fs.readFileSync('./test/sample/big-deal.dge')).should.equal(false);
+        dup.check(fs.readFileSync('./test/sample/big-deal.dup')).should.equal(true);
+    });
+
 
 });
