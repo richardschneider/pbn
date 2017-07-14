@@ -9,7 +9,7 @@ if (process.argv[2])
     doc = fs.createReadStream(process.argv[2]);
 
 doc
-    .pipe(pbn())
+    .pipe(pbn.autoConvert())
     .on('data', data => {
         console.log(JSON.stringify(data));
     })
