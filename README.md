@@ -216,6 +216,15 @@ name of the deal format.
         .on('data', data => {
             console.log(JSON.stringify(data));
         });
+        
+The deal formats and PBN can also be automatically detected, using `pbn.autoConvert()`
+
+    fs.createReadStream('foo.bri')
+        .pipe(pbn.autoConvert(options))
+        .on('data', data => {
+            console.log(JSON.stringify(data));
+        });
+
 
 ### BRI
 
