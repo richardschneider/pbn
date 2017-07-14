@@ -37,6 +37,7 @@
     "pbn": "./bin/pbn.js"
   },
   "dependencies": {
+    "buffer-peek-stream": "^1.0.1",
     "lstream": "0.0.4",
     "multipipe": "^1.0.2"
   },
