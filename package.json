@@ -39,7 +39,7 @@
   "dependencies": {
     "buffer-peek-stream": "^1.0.1",
     "lstream": "0.0.4",
-    "multipipe": "^1.0.2"
+    "multipipe": "^2.0.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
