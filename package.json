@@ -50,7 +50,7 @@
     "jshint": "^2.9.2",
     "jshint-stylish": "^2.2.0",
     "mocha": "*",
-    "semantic-release": "^6.3.2",
+    "semantic-release": "^15.9.11",
     "should": "*",
     "validate-commit-msg": "^2.6.1"
   },
