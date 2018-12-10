@@ -42,7 +42,7 @@
     "multipipe": "^1.0.2"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-coveralls": "^0.1.4",
     "gulp-jshint": "^2.0.1",
     "gulp-spawn-mocha": "^3.1.0",
