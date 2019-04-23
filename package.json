@@ -1,5 +1,6 @@
 {
   "name": "pbn",
+  "version": "1.0.0",
   "description": "Parse and transform a PBN stream",
   "homepage": "https://github.com/richardschneider/pbn",
   "bugs": "https://github.com/richardschneider/pbn/issues",
