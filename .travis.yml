@@ -4,7 +4,7 @@ language: node_js
 env: CI=true
 
 node_js:
-  - stable
+  - '11'
 
 cache:
   directories:
@@ -15,7 +15,7 @@ before_script:
 
 script:
   - gulp test
-
+  
 after_success:
   - gulp coverage
   - npm run semantic-release
