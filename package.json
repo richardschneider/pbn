@@ -46,13 +46,13 @@
   "dependencies": {
     "buffer-peek-stream": "^1.0.1",
     "lstream": "0.0.4",
-    "multipipe": "^1.0.2"
+    "multipipe": "^2.0.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-coveralls": "^0.1.4",
     "gulp-jshint": "^2.0.1",
-    "gulp-spawn-mocha": "^3.1.0",
+    "gulp-spawn-mocha": "^4.0.0",
     "istanbul": "^0.4.5",
     "jshint": "^2.9.2",
     "jshint-stylish": "^2.2.0",

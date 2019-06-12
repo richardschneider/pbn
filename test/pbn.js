@@ -175,6 +175,22 @@ describe('PBN', () => {
                     done();
                 });
         });
+		it('should allow N for NT denomination', (done) => {
+            let contract = {};
+            text('[Contract "3N"]')
+                .pipe(pbn())
+                .on('error', done)
+                .on('data', data => { contract = data; })
+                .on('end', () => {
+                    contract.should.have.property('type', 'tag');
+                    contract.should.have.property('name', 'Contract');
+                    contract.should.have.property('value', '3N');
+                    contract.should.have.property('level', 3);
+                    contract.should.have.property('denomination', 'NT');
+                    contract.should.have.property('risk', '');
+                    done();
+                });
+        });
         it('can be doubled', (done) => {
             let contract = {};
             text('[Contract "3NTX"]')
