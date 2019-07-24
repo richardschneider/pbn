@@ -1,5 +1,6 @@
 {
   "name": "pbn",
+  "version": "1.0.0",
   "description": "Parse and transform a PBN stream",
   "homepage": "https://github.com/richardschneider/pbn",
   "bugs": "https://github.com/richardschneider/pbn/issues",
@@ -21,6 +22,12 @@
     "name": "Richard Schneider",
     "email": "makaretu@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "Peter Kaukov",
+      "email": "peter.kaukov@gmail.com"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/richardschneider/pbn"
