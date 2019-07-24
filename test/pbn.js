@@ -92,6 +92,44 @@ describe('PBN', () => {
                 });
         });
 
+        it('allow comments on tags (currently only rejecting it)', (done) => {
+            let tag = {};
+            let comment = {};
+
+            text('[Foo "bar"]\ndata 1\ndata 2 { hello friends }')
+                .pipe(pbn())
+                .on('error', done)
+                .on('data', data => {
+                    console.log(data);
+                    switch (data.type) {
+                        case 'tag': {
+                            tag = data;
+                            break;
+                        }
+                        case 'comment': {
+                            comment = data;
+                            break;
+                        }
+                    }
+                })
+                .on('end', () => {
+                    tag.should.have.property('type', 'tag');
+                    tag.should.have.property('name', 'Foo');
+                    tag.should.have.property('value', 'bar');
+                    tag.should.have.property('tokens');
+                    tag.tokens.should.have.length(4);
+                    tag.tokens[0].should.equal('data');
+                    tag.tokens[1].should.equal('1');
+                    tag.tokens[2].should.equal('data');
+                    tag.tokens[3].should.equal('2');
+
+                    comment.should.have.property('type', 'comment');
+                    comment.should.have.property('text', 'hello friends');
+
+                    done();
+                });
+        });
+
         describe('inherit value', () => {
             it('should be previous value', (done) => {
                 let tag = {};
@@ -367,13 +405,13 @@ describe('PBN', () => {
 
         it('should have multiple lines with braces', (done) => {
             let comment = {};
-            text('{\r\nline 1\r\nline 2\r\n\}')
+            text('{\r\nline 1\r\nline 2\r\n}')
                 .pipe(pbn())
                 .on('error', done)
                 .on('data', data => { comment = data; })
                 .on('end', () => {
                     comment.should.have.property('type', 'comment');
-                    comment.should.have.property('text', 'line 1\r\nline 2\r\n\r\n');
+                    comment.should.have.property('text', 'line 1\r\nline 2\r\n');
                     done();
                 });
         });
